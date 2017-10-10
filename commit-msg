@@ -1,0 +1,6 @@
+#!/bin/bash
+for f in ".git/hooks/commit_msg/*"
+do
+  source $f
+  echo $f
+done
